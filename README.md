@@ -28,11 +28,11 @@ Result:
 ]
 ```
 ##### 200 OK
-
+-------------------------------------------------------------------
 ### /users/1
 #### Method: GET
 Description: Gets a single user from /users/{userid}
-#### example: curl http://api.softhouse.rocks/users/1
+#### Example: curl http://api.softhouse.rocks/users/1
 Result: 
 ```
 {
@@ -54,8 +54,8 @@ Result:
   "__v": 0
 }
 ```
-#### 200 OK
-
+##### 200 OK
+-------------------------------------------------------------------
 ### /users
 #### Method: POST
 Description: Create a post
@@ -82,4 +82,5 @@ Result:
   "userId": "800"
 }
 ```
-#### 201 Created
+##### 201 Created
+-------------------------------------------------------------------
