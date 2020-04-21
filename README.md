@@ -3,7 +3,8 @@
 ## Endpoints
 
 ### /users
-#### METHOD: GET
+#### Description: Gets an array of all users.
+#### GET
 ##### Example: curl http://api.softhouse.rocks/users
 Result:
 ```{ 
@@ -29,7 +30,8 @@ Result:
 ##### 200 OK
 
 ### /users/1
-#### METHOD: GET
+#### Description: Gets a single user from /users/{userid}
+#### GET
 #### example: curl http://api.softhouse.rocks/users/1
 Result: 
 ```{
@@ -53,3 +55,15 @@ Result:
 ```
 #### 200 OK
 
+### /users
+#### Description: Create a post
+#### -X POST
+#### -H Header  
+```"Content-Type: application/json"```
+##### Example: curl http://api.softhouse.rocks/users 
+##### -d Body 
+```'{"title":"Hi, World", "body":"Fresh as morning dew", "userId": "800"}```
+Result:
+#### Body 
+```'{"title":"Hi, World", "body":"Fresh as morning dew", "userId": "800"}```
+#### 201
