@@ -59,7 +59,7 @@ Result:
 ### /users
 #### Method: POST
 Description: Create a post
-#### Headers: 
+#### Headers:
 ```"Content-Type: application/json"```
 
 ##### Body:
@@ -71,8 +71,8 @@ Description: Create a post
 }
 ```
 
-##### Example: 
-curl -X POST -H "Content-Type: application/json" http://api.softhouse.rocks/users -d '{"title":"Hi, World", "body":"Fresh as morning dew", "userId": "1"}'
+##### Example:
+curl -i -X POST -H "Content-Type:application/json" http://api.softhouse.rocks/posts -d '{"title":"Hi, World", "body":"Fresh as morning dew", "userId": "800"}'
 
 Result:
 ```
