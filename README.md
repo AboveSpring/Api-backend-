@@ -4,9 +4,9 @@
 
 ### /users
 #### METHOD: GET
-##### example: curl
+##### Example: curl http://api.softhouse.rocks/users
 Result:
-{ 
+```{ 
     "address": {
       "geo": {
         "lat": -31.8129,
@@ -24,7 +24,7 @@ Result:
     "id": 380,
     "__v": 0
   }
-]
+]```
 ##### 200 OK
 
 ### /users/1
