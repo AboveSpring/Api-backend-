@@ -57,13 +57,23 @@ Result:
 
 ### /users
 #### Description: Create a post
-#### -X POST
-#### -H Header  
+#### POST
+#### Headers: 
 ```"Content-Type: application/json"```
-##### Example: curl http://api.softhouse.rocks/users 
-##### -d Body 
-```'{"title":"Hi, World", "body":"Fresh as morning dew", "userId": "800"}```
+
+##### Example: curl -X POST -H "Content-Type: application/json" http://api.softhouse.rocks/users -d '{"title":"Hi, World", "body":"Fresh as morning dew", "userId": "1"}'
+
+##### -d Body:
+```{
+  "title":"Hi, World", 
+  "body":"Fresh as morning dew", 
+  "userId": "800"}
+```
+
 Result:
-#### Body 
-```'{"title":"Hi, World", "body":"Fresh as morning dew", "userId": "800"}```
-#### 201
+```{
+  "title":"Hi, World", 
+  "body":"Fresh as morning dew", 
+  "userId": "800"}
+  ```
+#### 201 Created
