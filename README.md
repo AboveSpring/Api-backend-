@@ -24,14 +24,15 @@ Result:
     "id": 380,
     "__v": 0
   }
-]```
+]
+```
 ##### 200 OK
 
 ### /users/1
 #### METHOD: GET
 #### example: curl http://api.softhouse.rocks/users/1
 Result: 
-{
+```{
   "address": {
     "geo": {
       "lat": -37.3159,
@@ -49,5 +50,6 @@ Result:
   "email": "Sincere@april.biz",
   "__v": 0
 }
+```
 #### 200 OK
 
