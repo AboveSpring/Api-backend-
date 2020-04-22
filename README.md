@@ -1,8 +1,38 @@
 # Api-backend-
 
 ## Endpoints for /users and /posts
-/users dont have DELETE and PATCH
+## /users dont have DELETE and PATCH
 
+## Body example for users:
+```
+{
+    "address": {
+      "geo": {
+        "lat": -31.8129,
+        "lng": 62.5342
+      },
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263"
+    },
+    "_id": "5e9eb464a8eb15002609e47f",
+    "name": "Nisse",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "id": 380,
+    "__v": 0
+  }
+```
+## Body example for posts:
+```
+{
+  "title": "string",
+  "body": "string",
+  "userId": 0
+}
+```
+-------------------------------------------------------------------
 ### /users
 #### Method: GET
 Description: Gets an array of all users.
@@ -27,7 +57,6 @@ Result:
     "id": 380,
     "__v": 0
   }
-]
 ```
 ##### 200 OK
 -------------------------------------------------------------------
