@@ -138,20 +138,24 @@ Description: Replace a user
 ##### Body:
 ```
 {
-  "name": "string",
-  "username": "string",
-  "email": "string",
   "address": {
-    "street": "string",
-    "suite": "string",
-    "city": "string",
-    "zipcode": "string",
     "geo": {
       "lat": 0,
       "lng": 0
-    }
-  }
+    },
+    "street": "string",
+    "suite": "string",
+    "city": "string",
+    "zipcode": "string"
+  },
+  "_id": "5e806d9f42fbde006b6b9ece",
+  "id": 10,
+  "name": "string",
+  "username": "string",
+  "email": "string",
+  "__v": 0
 }
+
 ```
 ##### Example:
 curl -i -X PUT -H "Content-Type:application/json" http://api.softhouse.rocks/users/50 -d '{
@@ -245,5 +249,4 @@ Description: Delete a post
 curl -i -X DELETE http://api.softhouse.rocks/posts/10
 
 Result:
-OK
 ##### 200 OK
