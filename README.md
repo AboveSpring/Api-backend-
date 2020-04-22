@@ -1,9 +1,9 @@
 # Api-backend-
 
 ## Endpoints for /users and /posts
-## /users dont have DELETE and PATCH
+#### /users dont have DELETE and PATCH
 
-## Body example for users:
+#### Body example for users:
 ```
 {
     "address": {
@@ -24,7 +24,7 @@
     "__v": 0
   }
 ```
-## Body example for posts:
+#### Body example for posts:
 ```
 {
   "title": "string",
