@@ -249,23 +249,9 @@ curl -i -X PATCH -H "Content-Type:application/json" http://api.softhouse.rocks/p
 
 Result:
 ```
-{
-  "n": 1,
-  "nModified": 0,
-  "opTime": {
-    "ts": "6818464584756625409",
-    "t": 139
-  },
-  "electionId": "7fffffff000000000000008b",
-  "ok": 1,
-  "operationTime": "6818464584756625409",
-  "$clusterTime": {
-    "clusterTime": "6818464584756625409",
-    "signature": {
-      "hash": "AAAAAAAAAAAAAAAAAAAAAAAAAAA=",
-      "keyId": 0
-    }
-  }
+{ "title": "Lord of the Rings",
+  "body": "Gollum",
+  "userId": 0
 }
 ```
 ##### 200 OK
